@@ -28,7 +28,7 @@ function init() {
         const blob = new Blob([textData], { type: 'text/plain' });
         const url = URL.createObjectURL(blob);
         downloadLink.href = url;
-        downloadLink.download = 'converted_text.txt';
+        downloadLink.download = 'wave_data.txt';
         
         // ダウンロードリンクをクリックして、自動ダウンロードする
         downloadLink.click();
