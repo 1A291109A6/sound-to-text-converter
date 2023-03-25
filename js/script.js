@@ -29,7 +29,7 @@ function init() {
         const channelData = buffer.getChannelData(0);
         let textData = '';
         const samplingRate = buffer.sampleRate;
-        const step = samplingRate;
+        const step = samplingRate / 8000;
         for (let i = 0; i < channelData.length; i += step) {
           textData += channelData[Math.floor(i)].toString() + '\n';
         }
