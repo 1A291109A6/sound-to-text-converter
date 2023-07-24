@@ -7,6 +7,7 @@ function init() {
     const reader = new FileReader();
 
     reader.onload = (event) => {
+      loadingText.style.display = 'block';
       const audioContext = new AudioContext();
 
       let decodeFunction;
@@ -39,6 +40,7 @@ function init() {
         downloadLink.href = url;
         downloadLink.download = 'wave_data.txt';
         downloadLink.click();
+        loadingText.style.display = 'none';
       });
     }
 
