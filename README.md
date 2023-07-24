@@ -9,4 +9,4 @@
 時間が掛かる場合があります。
 ファイルサイズが大きいかったり、端末のスペックが低いと出来ない場合があります。
 
-[変換サイトへ行く](https://1a291109a6.github.io/sounds-to-text-converter/)
+[変換サイトへ行く](https://1a291109a6.github.io/sound-to-text-converter/)
